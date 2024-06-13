@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(0, 31, 45);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+.box {
+    background-color: rgb(41, 206, 206);
+    height: 330px;
+    width: 750px;
+    margin: 200px 300px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box .tanda {
+    text-align: center;
+    padding-top: 10px;
+    color: #fad775;
+}
+
+.kotak1 {
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    margin : 25px 20px;
+    
+}
+
+.kotak2 {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 25px 10px 25px;
+    margin : 25px 20px;
+}
+.tiga{
+    background-color: blue;
+    padding: 10px 1px;
+    color: white;
+    text-align: center;
+}

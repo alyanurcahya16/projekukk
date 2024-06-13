@@ -1,0 +1,160 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: rgb(154, 118, 221);
+    align-items: center;
+  }
+  
+.box {
+    background: linear-gradient(45deg, rgb(253, 94, 158), #3cf);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #444;
+}
+
+form {
+    text-align: center;
+}
+  
+label {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #444;
+}
+  
+input[type="text"],
+input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    width: 250px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+  
+.cp {
+    margin-top: 30px;
+}
+  
+.cp table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.cp th,
+.cp td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+  
+.cp th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+  
+.cp a {
+    text-decoration: none;
+    color: #444;
+}
+  
+.cp a:hover {
+    text-decoration: underline;
+}
+
+.cp a.hapus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cp a.hapus:hover {
+    text-decoration: underline;
+}
+
+.cp a.hapus i {
+    color: #fff;
+}
+
+.cp a.hapus i:hover {
+    color: #e90c0c;
+}
+
+button,
+.hapus {
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem; 
+}
+  
+button i {
+    margin-right: 5px;
+}
+
+.kirim {
+    background-color: #003cff;
+}
+
+.kirim:hover {
+    background-color: #0000ff;
+}
+
+.cetak {
+    background-color: #0ea80e;
+}
+
+.cetak:hover {
+    background-color: #008000;
+}
+
+.hapus {
+    background-color: #ff0000;
+}
+
+.hapus:hover {
+    background-color: #e90c0c;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #d1c2c2;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr {
+    background-color: #d1c2c2;
+}
+
+.kembali {
+    background-color: blue;
+}
